@@ -1,6 +1,6 @@
 # Secret Key Generation by Continuous Encryption Before Quantization
 
-For detiled description please refer to our [SPL22](https://intra.ece.ucr.edu/~yhua/Reprint_Maksud_Hua_SPL_2022.pdf) paper. The [main_test.py](main_test.py) geneartes data and logs into [data_plots](data_plots) folder. The [CEF_modules](CEF_modules) contain core modules for Continuous Encryption Function.
+For detiled description please refer to our SPL22 [paper](https://intra.ece.ucr.edu/~yhua/Reprint_Maksud_Hua_SPL_2022.pdf) and [slides](https://drive.google.com/file/d/1P2Kfo6XTSxgTHtST4UqO3YfeDz5f6XXX/view?usp=sharing). The [main_test.py](main_test.py) geneartes data and logs into [data_plots](data_plots) folder. The [CEF_modules](CEF_modules) contain core modules for Continuous Encryption Function.
 
 ## Introduction
 Secret Key Generation (SKG) is a long standing problem for network security applications. For wireless security, a pair of nodes (Alice and Bob) in a wireless network can exploit their reciprocal channel state information to generate a secret key. Such a key shared by Alice and Bob can be then used as a symmetric key for information encryption between them over any networks.
